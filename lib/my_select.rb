@@ -2,8 +2,8 @@ def my_select(collection)
 i = 0
 new_array = []
 while i < collection.length 
-element = yield collection[i]
-new_array << element
+new_array << collection[i]
+yield collection[i]
 i+=1
  end
  return new_array
