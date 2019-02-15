@@ -1,3 +1,5 @@
 def my_select(collection)
- for 
+ for |item| in collection
+ 
+ end
 end
