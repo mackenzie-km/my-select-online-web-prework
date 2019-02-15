@@ -5,8 +5,10 @@ while i < collection.length
  yield collection[i]
  if collection[i] == true
  new_array << collection[i]
+ i+=1
+ else 
+   i+=1
 end
-i+=1
  end
  return new_array
 end
