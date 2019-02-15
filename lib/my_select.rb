@@ -4,4 +4,5 @@ while i < collection.length
 yield collection[i]
 i+=1
  end
+ return collection
 end
